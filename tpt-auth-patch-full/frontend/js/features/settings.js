@@ -1,0 +1,1 @@
+export function mountSettings(){ document.querySelector('#view').querySelector('.card').innerHTML='Settings coming soon'; }

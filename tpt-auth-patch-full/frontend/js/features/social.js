@@ -1,0 +1,1 @@
+export function mountSocial(){ document.querySelector('#view').querySelector('.card').innerHTML='Social coming soon'; }

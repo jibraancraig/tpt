@@ -1,0 +1,1 @@
+export function mountProducts(){ document.querySelector('#view').querySelector('.card').innerHTML='Products coming soon'; }

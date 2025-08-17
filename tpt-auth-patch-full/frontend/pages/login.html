@@ -1,0 +1,16 @@
+<div class="auth-wrap">
+  <h1>Log in</h1>
+  <div class="card">
+    <form id="login-form">
+      <label>Email</label>
+      <input name="email" type="email" required />
+      <label>Password</label>
+      <input name="password" type="password" required minlength="8" />
+      <button type="submit" style="margin-top:10px">Log in</button>
+      <button type="button" id="resend-confirm" class="link" style="margin-left:8px" hidden>Resend confirmation</button>
+      <div id="login-note" class="note"></div>
+      <div id="login-error" class="error"></div>
+      <p style="margin-top:10px">No account? <a href="#/signup">Sign up</a></p>
+    </form>
+  </div>
+</div>

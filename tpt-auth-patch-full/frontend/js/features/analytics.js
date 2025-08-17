@@ -1,0 +1,1 @@
+export function mountAnalytics(){ document.querySelector('#view').querySelector('.card').innerHTML='Analytics coming soon'; }

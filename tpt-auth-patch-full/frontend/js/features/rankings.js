@@ -1,0 +1,1 @@
+export function mountRankings(){ document.querySelector('#view').querySelector('.card').innerHTML='Rankings coming soon'; }
